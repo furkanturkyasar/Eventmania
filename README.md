@@ -1,31 +1,36 @@
 # React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 # Eventmania
+
+# Event Evaluation System
+
+This project is a web application that allows users to review various events. Users can rate events and leave comments.
+
+## Key Features
+
+- **Event Listing:** Users can view available events.
+- **Event Evaluation:** Ability to rate events and provide comments for each event.
+- **Pagination:** Events are listed in a paginated manner.
+- **Dynamic Data Loading:** Event and review data are dynamically loaded from a JSON Server.
+
+## Technologies Used
+
+- **Frontend:** React, Axios
+- **Backend:** JSON Server
+- **Styling:** CSS, Tailwind CSS
+- **Others:** react-toastify (for toast messages)
+
+## Installation and Setup
+
+1. Clone the repository:
+git clone https://github.com/furkanturkyasar/Eventmania.git
+
+2. Install dependencies:
+cd your-repo-name
+yarn install
+
+3. Start the JSON Server:
+json-server --watch data/db.json
+
+4. Run the application:
+yarn run dev
+
