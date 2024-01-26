@@ -1,0 +1,141 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "name": "İlkbahar Müzik Festivali",
+      "description": "Yerel ve uluslararası sanatçılardan çeşitli müzik performanslarının keyfini çıkarın.",
+      "date": "2024-05-15",
+      "imageUrl": "https://i.pinimg.com/564x/40/ab/fc/40abfccf2488acde83cad8fb2b33f322.jpg",
+      "location": "Yeşil Park",
+      "reviews": [
+        {
+          "id": 1,
+          "rating": 5,
+          "comment": "Müzik harikaydı ve atmosfer inanılmazdı!"
+        },
+        {
+          "id": 2,
+          "rating": 4,
+          "comment": "Harika performanslar ve iyi organize edilmiş bir etkinlik."
+        },
+        {
+          "rating": "2",
+          "comment": "test"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Teknoloji Yenilikçileri Konferansı",
+      "description": "Teknoloji ve dijital yeniliklerdeki en son gelişmeleri sergileyen bir konferans.",
+      "imageUrl": "https://i.pinimg.com/564x/ac/6b/11/ac6b1141c562c2911cdca11b0af57c9d.jpg",
+      "date": "2024-06-20",
+      "location": "Teknoloji Merkezi",
+      "reviews": [
+        {
+          "id": 1,
+          "rating": 4,
+          "comment": "Çok bilgilendirici ve ilgi çekici konuşmacılar."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Yerel Sanat Sergisi",
+      "description": "Bu ilham verici sanat sergisinde yerel sanatçıların yaratıcı eserlerini keşfedin.",
+      "date": "2024-07-11",
+      "imageUrl": "https://i.pinimg.com/564x/d3/fd/97/d3fd978b62e1b3591c4284922a787d13.jpg",
+      "location": "Şehir Sanat Galerisi",
+      "reviews": [
+        {
+          "id": 1,
+          "rating": 5,
+          "comment": "Muhteşem sanat eserleri ve yerel sanatçılara destek olmanın harika bir yolu!"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Yaz Plaj Partisi",
+      "description": "Canlı müzik, oyunlar ve yiyecek stantları ile dolu eğlenceli bir plaj gününe katılın.",
+      "imageUrl": "https://i.pinimg.com/564x/be/7d/a7/be7da75d4ee57b545fa3b8b5986acfa8.jpg",
+      "date": "2024-08-05",
+      "location": "Kumlu Plaj",
+      "reviews": []
+    },
+    {
+      "id": "5",
+      "name": "Halk Dansları Festivali",
+      "description": "Yerel halk danslarının büyüleyici gösterileriyle kültürel bir şölene katılın.",
+      "date": "2024-09-12",
+      "imageUrl": "https://i.pinimg.com/564x/27/05/71/2705710774b768d22d69d449fe3802cd.jpg",
+      "location": "Kültür Parkı",
+      "reviews": [
+        {
+          "id": 1,
+          "rating": 5,
+          "comment": "Dans gösterileri muazzamdı ve müzikler harikaydı!"
+        },
+        {
+          "id": 2,
+          "rating": 4,
+          "comment": "Geleneksel kültürümüzü yaşatan bu tür etkinliklerin devamını dilerim."
+        },
+        {
+          "id": 3,
+          "rating": 3,
+          "comment": "Fena degildi."
+        },
+        {
+          "id": 4,
+          "rating": 2,
+          "comment": "Kimse gitmesin!"
+        },
+        {
+          "rating": "5",
+          "comment": "Harika"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Kültürel Yemek Fuarı",
+      "description": "Çeşitli geleneksel mutfaklarla farklı kültürlerin tadını çıkarın.",
+      "date": "2024-10-22",
+      "location": "Şehir Meydanı",
+      "imageUrl": "https://images.squarespace-cdn.com/content/53b839afe4b07ea978436183/1608506201082-GU22QYZJC5TWXRSY24RX/traditional-food-around-the-world-Travlinmad.jpg?content-type=image%2Fjpeg",
+      "reviews": [
+        {
+          "id": 1,
+          "rating": 4,
+          "comment": "Lezzetli yemekler ve diğer kültürleri öğrenmenin harika bir yolu."
+        },
+        {
+          "id": 2,
+          "rating": 4,
+          "comment": "Çok fazla yemek seçeneği vardı, her şey lezzetliydi!"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Yılbaşı Galası",
+      "description": "Canlı müzik ve havai fişeklerle Yeni Yılı karşılamak için şık bir gala etkinliği.",
+      "date": "2024-12-31",
+      "imageUrl": "https://i.pinimg.com/564x/48/85/58/488558c79094578a5d2d6de857775e8f.jpg",
+      "location": "Grand Hotel",
+      "reviews": [
+        {
+          "id": 1,
+          "rating": 5,
+          "comment": "Yeni Yılı karşılamak için muhteşem bir yol!"
+        },
+        {
+          "id": 2,
+          "rating": 5,
+          "comment": "Şık bir atmosfer ve harika eğlenceler."
+        }
+      ]
+    }
+  ]
+}
